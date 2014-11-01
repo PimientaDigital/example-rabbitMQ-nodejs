@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    body(ng-controller="IndexCtrl" ng-init="title = '#{title}'}")
+        .title
+            span {{title}}
+        div(ng-repeat="m in messages")
+            span {{m.message}}
+            span {{m.date}}

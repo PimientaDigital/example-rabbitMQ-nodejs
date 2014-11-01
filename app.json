@@ -1,0 +1,5 @@
+{
+  "name": "example testRabbitMQ",
+  "description": "exmple get Message RabbitMQ",
+  "keywords": ["node", "express", "static"]
+}
