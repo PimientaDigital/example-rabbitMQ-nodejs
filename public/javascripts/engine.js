@@ -1,5 +1,5 @@
 'use strict';
-var app = angular.module('tweetForGold', []);
+var app = angular.module('testrabbitmq', []);
 
 app.controller('IndexCtrl', ['$scope', function($scope) {
   $scope.messages = [];

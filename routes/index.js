@@ -2,7 +2,7 @@
 
 module.exports = function(app) {
 
-  app.get('/', function(req, response) {
+  app.get('/', function(request, response) {
 
     var Twit = app.get('Twit');
     var mongoose = require('mongoose');
@@ -10,7 +10,7 @@ module.exports = function(app) {
     var config = app.get('config');
 
     response.render('index', {
-      title:"title",
+      title:"este es el title",
       message:"message"
     });
 
