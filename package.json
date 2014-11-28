@@ -9,7 +9,7 @@
         "npm": "1.4.x"
     },
     "scripts": {
-        "start": "gulp gulp.js"
+        "start": "node app.js"
     },
     "dependencies": {
         "jade": "0.35.0",
